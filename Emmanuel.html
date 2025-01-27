@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<title>Emmanuel Colas</title>
+<html>
+    
+    <head>
+        <link href='style.css' rel='stylesheet'>
+    </head>
+        
+    <body>
+        
+    
+    <div class="dropdown">
+        <button class="dropbtn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div></button>
+            <div class="dropdown-content">
+                <a href="#about">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#tech">Languages and Tech</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+        
+        <img id = "selfie" src="pic.avif">
+
+        <button type="submit" id= "shadebtn" onclick="trigger()"><img id = "bulb" src="lightbulb.png"></button>
+        <script>
+            
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            }
+
+        function toggleImage() {
+            const img = document.getElementById("bulb");
+            if (img.src.endsWith("lightbulb.png")) {
+                img.src = "darkbulb.png";
+            } else {
+                img.src = "lightbulb.png";
+            }
+            }
+
+            function trigger(){
+                darkMode();
+                toggleImage();
+            }
+        </script>
+        
+
+        
+        <section id ="contacts">
+        <a href ="Resume Dec 2024.pdf" target ="_blank" >Resume</a>
+        <a href ="https://www.linkedin.com/in/ecolas/">Linkedin</a>
+        <a href ="https://github.com/Ecolas12/">Github</a>
+        </section>
+
+
+        <section id ="about">
+        <h1>About me</h1>
+        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+             Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+             Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+             Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+             Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+             Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+             Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+             Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+             Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+        </p>
+        </section>
+
+        
+        <section id="education">
+            <h1>Education</h1>
+            <div class="container">
+                <div class="image">
+                    <img id = ucf-logo src="ucf logo.png">
+                </div>
+                <div class="text">
+                    <p>University of Central Florida<br>
+                        January 2022 - December 2024<br>
+                        Bachelors of Science: Computer Science</p>
+                </div>
+                </div>
+                
+            </section>
+
+
+
+        <section id ="tech">
+            <h1 >Languages and Tech</h1>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>FastAPI</li>
+                <li>Html</li>
+                <li>Visual Studios</li>
+                <li>Virtual Box</li>
+                <li>Linux</li>
+                <li>Jira</li>
+                <li>Github</li>
+            </ul>
+        </section>
+
+        <section id = "projects">
+            <h1>Projects</h1><img class="pic" id="lagg-home" src="lagg-home.png">
+            <h2>LAGG: Looking at Genome Graphically (2024)</h2>
+            <p>Developed a python package to manipulate
+genome data to create images called chaos graphs for machine learning purposes.
+Implemented a configuration system to read from a .TOML file to make the package’s
+command line cleaner. Developed the backend endpoint that would take in a TXT file
+and return a generated chaos graph. Used Python and FastAPI. Render was used for
+hosting.</p>
+            <a href="https://laggfront.onrender.com/" target="_blank">Visit site</a>
+                
+        </section>
+
+  
+</script>
+
+
+<div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+ </div>
+    </body>
+</html>
