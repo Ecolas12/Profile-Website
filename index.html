@@ -19,58 +19,26 @@
                 <a href="#education">Education</a>
                 <a href="#tech">Languages and Tech</a>
                 <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts/Resume</a>
             </div>
         </div>
         
-        <img id = "selfie" src="pic.avif">
-
-        <button type="submit" id= "shadebtn" onclick="trigger()"><img id = "bulb" src="lightbulb.png"></button>
-        <script>
+        
+        <!--
+            <section id ="contacts">
+                <a href ="Emmanuel Colas .pdf" target ="_blank" >Resume</a>
+                <a href ="https://www.linkedin.com/in/ecolas/">Linkedin</a>
+                <a href ="https://github.com/Ecolas12/">Github</a>
+            </section>
+            -->
             
-        function darkMode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            }
-
-        function toggleImage() {
-            const img = document.getElementById("bulb");
-            if (img.src.endsWith("lightbulb.png")) {
-                img.src = "darkbulb.png";
-            } else {
-                img.src = "lightbulb.png";
-            }
-            }
-
-            function trigger(){
-                darkMode();
-                toggleImage();
-            }
-        </script>
-        
-
-        
-        <section id ="contacts">
-        <a href ="Resume Dec 2024.pdf" target ="_blank" >Resume</a>
-        <a href ="https://www.linkedin.com/in/ecolas/">Linkedin</a>
-        <a href ="https://github.com/Ecolas12/">Github</a>
-        </section>
-
-
+            
         <section id ="about">
-        <h1>About me</h1>
-        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-             Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-             Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-             Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-             Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-             Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-             Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
-             Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-             Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-        </p>
+        
+            
+                <img id = "selfie" src="selfie.jpg">
+                <p> Hello, I am <b>Emmanuel Colas</b>. Recently graduated from the University of Central Florida with my degree in Computer Science, I am looking to forward my using my degree in a variety of Software Engineering/Software Developing tasks as well as continuing learning new tech from future jobs. 
+                </p>
         </section>
 
         
@@ -107,21 +75,30 @@
             </ul>
         </section>
 
-        <section id = "projects">
-            <h1>Projects</h1><img class="pic" id="lagg-home" src="lagg-home.png">
-            <h2>LAGG: Looking at Genome Graphically (2024)</h2>
-            <p>Developed a python package to manipulate
-genome data to create images called chaos graphs for machine learning purposes.
-Implemented a configuration system to read from a .TOML file to make the package’s
-command line cleaner. Developed the backend endpoint that would take in a TXT file
-and return a generated chaos graph. Used Python and FastAPI. Render was used for
-hosting.</p>
-            <a href="https://laggfront.onrender.com/" target="_blank">Visit site</a>
+    <section id = "projects">
+        <h1>Projects</h1><img class="pic" id="lagg-home" src="lagg-home.png">
+        <h2>LAGG: Looking at Genome Graphically (2024)</h2>
+        <p>Developed a python package to manipulate
+        genome data to create images called chaos graphs for machine learning purposes.
+        Implemented a configuration system to read from a .TOML file to make the package’s
+        command line cleaner. Developed the backend endpoint that would take in a TXT file
+        and return a generated chaos graph.<br><br>Tech Stack: Python,FastAPI,Render for hosting</p>
+        <a href="https://laggfront.onrender.com/" target="_blank">Visit site</a>
                 
-        </section>
+    </section>
 
   
-</script>
+    <section id ="contacts">
+        <a href="https://github.com/Ecolas12" target="_blank">
+            <img src ="github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/ecolas" target="_blank">
+            <img src ="linkedin.png">
+        </a>
+        <a href="Emmanuel Colas.pdf" target="_blank">
+            <img src="resume.png">
+        </a>
+    </section>
 
 
 <div class="background">
@@ -157,3 +134,4 @@ hosting.</p>
  </div>
     </body>
 </html>
+
